@@ -28,3 +28,22 @@ console.table([typeof myFunction,typeof heros, typeof myObj,typeof scoreValue,ty
 
 //JavaScript is a dynamic language because variables can hold values of any type, and their type can change at runtime. 
 // Type checking happens only when the code runs, not before.
+//___________________________________________________________________________________
+//There are two types of Memory----> One Is Stack and another Is Heap
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubeName="AryaYoutubedotcom"
+let anotherName=myYoutubeName
+anotherName="Boogyemandotcom"
+console.log(myYoutubeName)//AryaYoutubedotcom
+console.log(anotherName)//Boogyemandotcom
+
+let userOne={
+email:"user@google.com",
+upi:"user@sbi"
+}
+
+let userTwo= userOne
+userTwo.email="Arya@google.com"
+console.log(userOne.email)//Arya@google.com
+console.log(userTwo.email)//Arya@google.com
