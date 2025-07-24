@@ -30,7 +30,7 @@ console.log(gameName.charAt(3))//Returns the Char at the mentioned index positio
 
 console.log(gameName.indexOf('a'))// Returns the Index Number
 
-const newString=gameName.substring(0,2)//Takes The First mentioned Index(0) and the  Second index(1) just before the mentioned index
+const newString=gameName.substring(0,2)//Takes The First mentioned Index(0) and the  Second index(1) [Index before the mentioned index(2)]
 console.log(newString)//i.e last indexing value is not included//Output Ar
 
 
