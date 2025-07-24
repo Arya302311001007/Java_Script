@@ -47,3 +47,4 @@ let userTwo= userOne
 userTwo.email="Arya@google.com"
 console.log(userOne.email)//Arya@google.com
 console.log(userTwo.email)//Arya@google.com
+//Both Output are same as they are changed by reference
