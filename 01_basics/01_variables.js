@@ -5,7 +5,7 @@ accountCity = "Jaipur"
 // accountId =2 // not allowed 
 accountEmail ="abcd@abcd.com"
 accountPassword="1223442"
-accountCity="Berhampore"
+accountCity="Berhampore"// Variable can also declaered by not using let or va..... But it's not a good method
 let accountState;
 console.log(accountId)
 /* Prefer not to use var because of issue in the block scope and
